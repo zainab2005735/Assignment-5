@@ -1,0 +1,144 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #101010;
+    color: #eeeeee;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #080808;
+    color: #c9a044;
+    text-align: center;
+    padding: 35px 20px;
+    border-bottom: 2px solid #8b6914;
+}
+
+header h1 {
+    font-size: 32px;
+    margin-bottom: 8px;
+}
+
+header p {
+    color: #b9b9b9;
+}
+
+main {
+    max-width: 850px;
+    margin: 35px auto;
+    padding: 0 20px;
+}
+
+section {
+    background-color: #191919;
+    border: 1px solid #5c471b;
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 25px;
+}
+
+h2 {
+    color: #c9a044;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #493a1b;
+    padding-bottom: 10px;
+}
+
+h3 {
+    color: #c9a044;
+    margin-bottom: 12px;
+}
+
+label {
+    display: block;
+    margin: 12px 0 6px;
+    color: #dddddd;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    background-color: #252525;
+    color: #ffffff;
+    border: 1px solid #62502a;
+    border-radius: 6px;
+    font-size: 15px;
+    margin-bottom: 12px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #c9a044;
+}
+
+button {
+    background-color: #8b6914;
+    color: #ffffff;
+    border: 1px solid #c9a044;
+    border-radius: 6px;
+    padding: 11px 18px;
+    margin: 8px 5px 5px 0;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #b38a2e;
+    color: #080808;
+}
+
+#profileResult {
+    margin-top: 25px;
+    padding: 18px;
+    background-color: #111111;
+    border-left: 3px solid #c9a044;
+    border-radius: 5px;
+}
+
+#profileResult p {
+    margin: 7px 0;
+    overflow-wrap: anywhere;
+}
+
+#itemList {
+    padding-left: 25px;
+    margin-bottom: 18px;
+}
+
+#itemList li {
+    padding: 8px 5px;
+    border-bottom: 1px solid #333333;
+}
+
+.item-controls {
+    margin-top: 15px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #999999;
+    border-top: 1px solid #493a1b;
+    font-size: 14px;
+}
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 25px;
+    }
+
+    section {
+        padding: 18px;
+    }
+
+    main {
+        margin: 20px auto;
+    }
+}
